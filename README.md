@@ -1,16 +1,23 @@
-# React + Vite
+# 🏋️ Fitness Tracker Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive fitness tracking application built with **React** and **TailwindCSS**.
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Activity Logging:** Track Running, Cycling, Swimming, and more.
+* **3D Visuals:** High-quality 3D icons for better UX.
+* **Smart Analytics:** Real-time chart visualization of workout durations.
+* **Profile Management:** Auto-calculates **BMI** based on user height/weight.
+* **Search & Filter:** Instantly filter workout history.
+* **Persisted Data:** Data is saved to the browser so you don't lose progress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+* React + Vite
+* Tailwind CSS
+* Zustand (State Management)
+* Recharts (Data Visualization)
+* Framer Motion (Animations)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run
+1.  Clone the repo
+2.  Run `npm install`
+3.  Run `npm run dev`
